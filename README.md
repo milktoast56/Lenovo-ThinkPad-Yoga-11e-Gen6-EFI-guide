@@ -49,12 +49,12 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
   - Use the dortania OpenCore guide [here](https://dortania.github.io/OpenCore-Install-Guide/)
 
 ### BIOS Settings
-  Security -> Intel SGX -> Intel SGX Control [Disabled]
-  Security -> Secure Boot Configuration -> Secure Boot [Disabled]
-  Security -> Virtualization -> Intel Virtualization Technology [Enabled]
-  Security -> Virtualization -> Intel VT-D Feature [Enabled]
-  Startup -> UEFI/Legacy Boot [UEFI Only]
-              - CSM Support [No]
+  Security -> Intel SGX -> Intel SGX Control `[Disabled]`                                      
+  Security -> Secure Boot Configuration -> Secure Boot `[Disabled]`                                      
+  Security -> Virtualization -> Intel Virtualization Technology `[Enabled]`                                      
+  Security -> Virtualization -> Intel VT-D Feature `[Enabled]`                                      
+  Startup -> UEFI/Legacy Boot `[UEFI Only]`                                                                           
+              - CSM Support `[No]`                                                                                        
   
 ### Recommendation
   - Use CorpNewt's SSDTTime for your ACPIs [here](https://github.com/corpnewt/SSDTTime)
