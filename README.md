@@ -48,7 +48,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 ## How to make my efi? Where do i download it?
   - Use the dortania OpenCore guide [here](https://dortania.github.io/OpenCore-Install-Guide/)
 
-### BIOS Settings
+## BIOS Settings
 <pre>
   Security -> Intel SGX -> Intel SGX Control `[Disabled]`
   
@@ -60,7 +60,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
   
   Startup -> UEFI/Legacy Boot `[UEFI Only]`
                - CSM Support `[No]`  </pre>
-### Recommendation
+## Recommendation
   - Use CorpNewt's SSDTTime for your ACPIs [here](https://github.com/corpnewt/SSDTTime)
       - <strong>READ EVERYTHING SSDTTime TELLS YOU!</strong>
       - First step, dump your systems ACPI tables, press P in SSDTTime
@@ -77,7 +77,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
       - Then, run PatchMerge in the SSDTTime folder, and you'll figure out the rest
       - <strong>DON'T FORGET TO COPY THE PATCHED CONFIG PLIST FROM THE RESULTS FOLDER!!!</strong>
 
-### The various quirks and problems i encountered
+## The various quirks and problems i encountered
   <strong>AppleACPIPlatform Kernel Panic</strong>                                                          
       Solution: Install [CpuTSCSync](https://github.com/acidanthera/CpuTscSync/releases/) kext.
       
