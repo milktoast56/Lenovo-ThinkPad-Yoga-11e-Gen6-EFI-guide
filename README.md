@@ -1,0 +1,1 @@
+# Lenovo-ThinkPad-Yoga-11e-Gen6-EFI-guide
