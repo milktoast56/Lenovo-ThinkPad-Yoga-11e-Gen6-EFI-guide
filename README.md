@@ -48,7 +48,8 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 ## How to make my efi? Where do i download it?
   - Use the dortania OpenCore guide [here](https://dortania.github.io/OpenCore-Install-Guide/)
 
-
+### BIOS Settings
+  
 ### Recommendation
   - Use CorpNewt's SSDTTime for your ACPIs [here](https://github.com/corpnewt/SSDTTime)
       - <strong>READ EVERYTHING SSDTTime TELLS YOU!</strong>
@@ -61,6 +62,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
           - RTCAWAC
           - USBX
           - XOSI
+          - DMAR
       - Next, copy all the .aml files from the Results folder
       - Then, run PatchMerge in the SSDTTime folder, and you'll figure out the rest
       - <strong>DON'T FORGET TO COPY THE PATCHED CONFIG PLIST FROM THE RESULTS FOLDER!!!</strong>
@@ -74,3 +76,6 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 
   <strong>Black screen/Acceleration issues</strong>                                                      
       Solution: Set the iGpu platform id to 00001B59 and add the DVMT patches in the guide (Total Graphics Memory in BIOS ≠ DVMT)
+
+  <strong>RTL8153 USB-C Ethernet adapter not working on Sonoma</strong>  
+      Solution: Add this kext [ECM-override.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Misc/ECM-Override-v1.0.0.zip)
