@@ -50,16 +50,16 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 
 ## BIOS Settings
 <pre>
-  Security -> Intel SGX -> Intel SGX Control `[Disabled]`
+  Security -> Intel SGX -> Intel SGX Control [Disabled]
   
-  Security -> Secure Boot Configuration -> Secure Boot `[Disabled]`
+  Security -> Secure Boot Configuration -> Secure Boot [Disabled]
   
-  Security -> Virtualization -> Intel Virtualization Technology `[Enabled]`
+  Security -> Virtualization -> Intel Virtualization Technology [Enabled]
   
-  Security -> Virtualization -> Intel VT-D Feature `[Enabled]`
+  Security -> Virtualization -> Intel VT-D Feature [Enabled]
   
-  Startup -> UEFI/Legacy Boot `[UEFI Only]`
-               - CSM Support `[No]`  </pre>
+  Startup -> UEFI/Legacy Boot [UEFI Only]
+               - CSM Support [No]  </pre>
 ## Recommendation
   - Use CorpNewt's SSDTTime for your ACPIs [here](https://github.com/corpnewt/SSDTTime)
       - <strong>READ EVERYTHING SSDTTime TELLS YOU!</strong>
@@ -89,3 +89,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 
   <strong>RTL8153 USB-C Ethernet adapter not working on Sonoma</strong>  
       Solution: Add this kext [ECM-override.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Misc/ECM-Override-v1.0.0.zip)
+
+  <strong>For any other problems</strong>
+      - Try checking the dortania guide's (linked above) troubleshooting part
+      - Try asking in the [r/Hackintosh Paradise Discord server](https://discord.com/invite/8aKs69x), there's also the r/Hackintosh Reddit, however the quality of suppot there has been deteriorating 
