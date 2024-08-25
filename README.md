@@ -6,7 +6,7 @@
 
 ## Overview
 
-This computer supports `Sonoma`, however `Ventura and earlier` should work too.      
+This computer supports `Sonoma`, however `Ventura and earlier` work too.      
 
 ## Specs
 
