@@ -86,6 +86,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 
   <strong>Black screen/Acceleration issues</strong>                                                      
       Solution: Set the iGpu platform id to 00001B59 and add the DVMT patches in the guide (Total Graphics Memory in BIOS ≠ DVMT)
+      (you can also remove framebuffer-fbmem and set framebuffer-stolenmem to 0000C001, which improves resolutions and refresh rate options) (Thanks to @CorpNewt on Discord)
 
   <strong>RTL8153 USB-C Ethernet adapter not working on Sonoma</strong>  
       Solution: Add this kext [ECM-override.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Misc/ECM-Override-v1.0.0.zip)
