@@ -10,7 +10,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 
 ## Specs
 
-<p><i>These are the specs of my laptop. This EFI can be used for all models of this machine.</i></p>
+<p><i>These are the specs of my laptop. The guide can be used for all models of this machine.</i></p>
 
 | Part             | Description                                                                                                    |
 | ---------------- | -------------------------------------------------------------------------------------------------------------- |
