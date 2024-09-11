@@ -91,7 +91,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
   <strong>RTL8153 USB-C Ethernet adapter not working on Sonoma</strong>  
       Solution: Add this kext [ECM-override.kext](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Misc/ECM-Override-v1.0.0.zip)
 
-  <strong>Failed to verify against canonical metadata on macOS Sonoma</strong>
+  <strong>Failed to verify against canonical metadata on macOS Sonoma</strong>                                                                                      
   Solution: Don't forget to set Misc -> Security -> SecureBootModel to Disabled while installing macOS Sonoma. (you can enable it post-install)                          
   
   <strong>For any other problems</strong>                                                                                                
