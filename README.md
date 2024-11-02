@@ -96,4 +96,4 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
   
   <strong>For any other problems</strong>                                                                                                
       - Try checking the dortania guide's (linked above) troubleshooting part                                
-      - Try asking in the [r/Hackintosh Paradise Discord server](https://discord.com/invite/8aKs69x), there's also the r/Hackintosh Reddit, however the quality of suppot there has been deteriorating 
+      - Try asking in the [r/Hackintosh Paradise Discord server](https://discord.com/invite/8aKs69x), there's also the r/Hackintosh Reddit, however the quality of support there has been deteriorating 
