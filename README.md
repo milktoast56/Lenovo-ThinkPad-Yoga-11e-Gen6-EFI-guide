@@ -35,7 +35,7 @@ This computer supports `Sonoma`, however `Ventura and earlier` work too.
 | Touchpad & 5 keys & gestures                      | ✅     |  |
 | Wifi                                              | ✅     |                                                                                    |
 | Bluetooth                                         | ✅     |                                                                                    |
-| SD Card Reader                                    | ✅     |                                                                                    |
+| SD Card Reader                                    | ✅     | With some glitches, hotplug is spotty at best                                      |
 | Camera & Mic                                      | ✅     |                                                                                   |
 | Speaker & 3.5mm audio port                        | ✅     |                                                                                    |
 | iGPU & HDMI                                 | ✅     |                                                                                    |
